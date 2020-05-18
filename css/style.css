@@ -4,18 +4,41 @@
     width: 100%;
     margin-top: 0;
     padding: 1em 0;
+    text-align: center;
 }
 
 .container {
-    min-height: calc(100vh - 50px);
+    /* for sticky footer, 50px is the height of the footer, adjust if changed 
+    min-height: calc(100vh - 50px); 
+    */
+    margin-bottom: 0; /* 0 to handle collapsed margins */
 }
 
 .body-wrap {
-    background-color: khaki;
+    background-color: black;
+    color: white;
     padding: 1em 0;
+    text-align: center;
 }
 
 footer {
-    background-color: gray;
+    background-color: cadetblue;
     padding: 1em 0;
 }
+
+.trick-image {
+    min-width: 100%;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    color: darkblue;
+    margin: 1em 1em;
+    
+}
+
+
