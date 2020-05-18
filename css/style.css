@@ -1,6 +1,6 @@
 .header {
     color: darkblue;
-    background-color: cadetblue;
+    background-color: orange;
     width: 100%;
     margin-top: 0;
     padding: 1em 0;
@@ -24,6 +24,7 @@
 footer {
     background-color: cadetblue;
     padding: 1em 0;
+    background-color: black;
 }
 
 .trick-image {
@@ -36,7 +37,7 @@ ul {
 
 ul li {
     display: inline;
-    color: darkblue;
+    color: white;
     margin: 1em 1em;
     
 }
